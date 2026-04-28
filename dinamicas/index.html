@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamanhos</title>
+</head>
+
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>mexa no tamanho do site e veja a foto mudar de tamanho</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="foto-pequena.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="foto-media.png" type="image/png">
+        <img src="foto-grande.png" alt="imagem flexivel">
+
+    </picture>
+    <h1>colocando audio em site</h1>
+    <audio preload="metadata" controls>
+        <source src="Toccata in D minor (by Bach) - Bach.mp3" type="audio/mpeg">
+        <source src="Toccata in D minor (by Bach) - Bach.ogg" type="audio/mpeg">
+        <p>infeizmente seu navegador nao conseguiu carregar o audio</p>
+    </audio>
+
+</body>
+
+</html>

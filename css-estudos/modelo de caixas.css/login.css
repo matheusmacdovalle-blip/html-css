@@ -6,6 +6,7 @@
 
 body {
     background-color: antiquewhite;
+    
 }
 
 h2 {
@@ -13,10 +14,10 @@ h2 {
     text-align: center;
 }
 
-main {
-    
+main {   
     width: 500px;
     height: 400px;
+   
 }
 
 header {
@@ -50,6 +51,8 @@ section {
     background-color: chocolate;
     border-radius: 20px;
     box-shadow: 3px 3px 3px black;
+    margin: auto;
+    max-width: 1000px;
 }
 
 div {

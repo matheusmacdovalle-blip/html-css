@@ -66,24 +66,6 @@ nav {
     margin: auto;
 }
 
-/*footer {
-    padding: 10px;
-    text-align: center;
-    background-color: black;
-}*/
-
-footer> h4{
-    color: aliceblue;
-}
-
-.final {
-   
-}
-
-.parte2 {
-   
-}
-
 article {
     background-color: beige;
     text-align: justify;
@@ -91,7 +73,7 @@ article {
 
 }
 
-article>aside {
+article > aside {
     background-color: chocolate;
     padding: 10px;
     text-indent: 30px;

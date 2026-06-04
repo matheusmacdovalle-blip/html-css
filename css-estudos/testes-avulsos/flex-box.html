@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+
+        
+        
+        section.maior{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            height: 400px;
+            width: 92vw;
+            box-shadow: 1px 1px 3px black;
+            background-color: bisque;
+            gap: 15px;
+            padding: 10px;
+            align-items: end;
+
+            /*
+            justify-content: flex-start;
+
+            justify-content: flex-end;
+
+            justify-content: center;
+
+            justify-content: space-between;
+
+            justify-content: space-around;
+            */
+        }
+
+        div.container {
+            border-radius: 10px;
+            margin: px;
+           
+        }
+
+        div.container > p {
+            text-align: center;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        div#d1 {
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+        }
+
+        div#d2 {
+            width: 100px;
+            height: 100px;
+            background-color: darksalmon;
+        }
+
+        div#d3 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        div#d4 {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="maior">
+        <div class="container" id="d1">
+            <p>1</p>
+        </div>
+        <div class="container" id="d2">
+            <p>2</p>
+        </div>
+        <div class="container" id="d3">
+            <p>3</p>
+        </div>
+         <div class="container" id="d4">
+            <p>4</p>
+        </div>
+    </section>
+</body>
+
+</html>
